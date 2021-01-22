@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 5% 18%;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3.8rem;
+  line-height: 1.5;
+
+}
+
+/* Sections */
+.colored-section{
+  color: #fff;
+  background-color: #ff4c68;
+}
+.white-section{
+  background-color:#fff;
+}
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat"
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Tittle section */
+
+#title .container-fluid {
+  padding: 3% 18% 6%;
+  text-align: left;
+}
+
+.img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+}
+
+.features-box {
+  padding: 7% 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+.features-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3.8rem;
+  line-height: 1.5;
+}
+
+.test-pic {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+}
+
+.creds-pic {
+  width: 20%;
+  margin: 5px 15px 30px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3.8rem;
+  line-height: 1.5;
+}
+
+.priceing-col {
+  padding: 3% 2%;
+}
+
+.dog-text{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+
+.cta-section {
+  font-size: 3.8rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+.ficon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1033px) {
+  #title {
+    text-align: center;
+  }
+
+  .img {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+}
